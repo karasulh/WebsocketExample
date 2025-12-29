@@ -1,0 +1,5 @@
+g++ -I /opt/homebrew/include -pthread example_websocket.cpp -o examplewebsocket -std=c++17
+g++ -I /opt/homebrew/include -pthread example_websocket_client.cpp -o examplewebsocketclient -std=c++17
+g++ -I /opt/homebrew/include -pthread example_websocketAsync.cpp -o examplewebsocketasync -std=c++17
+
+time python3 test_ws.py
